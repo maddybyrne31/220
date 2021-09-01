@@ -1,6 +1,6 @@
 """
 Name: <Madison Byrne>
-<first>.py
+<hello_test>.py
 """
 def hello ():
     print("hello, world")
