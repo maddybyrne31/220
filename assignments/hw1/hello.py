@@ -1,13 +1,11 @@
 """
 Name: <Madison Byrne>
-<chaos>.py
+<hello_test>.py
 
 Problem: Print hello, world! to the screen
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work
 """
-def hello ():
-    print("hello, world")
-
-hello()
+def main ():
+    print("hello, world!")
