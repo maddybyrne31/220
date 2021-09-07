@@ -17,8 +17,8 @@ def calc_volume():
     length = eval(input("Enter the length:"))
     width = eval(input("Enter the width:"))
     height = eval(input("Enter the height:"))
-    volume: length*width*height
-    print ("Volume =", volume)
+    volume = length*width*height
+    print ("Volume =",volume)
 
 calc_volume()
 
@@ -36,11 +36,14 @@ def coffee():
     fixed = 1.50
     coffee = ((cost*x)+(shipping*x)+fixed)
     print("Pounds =", x)
+
 coffee()
 
 def kilometers_to_miles():
     kilometers = eval(input("kilometers"))
     miles = kilometers/1.61
+
+kilometers_to_miles()
 
 
 
