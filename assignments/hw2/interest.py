@@ -6,7 +6,7 @@ Name: <Madison Byrne>
 Problem: calculate the value of an investment after 10 years
 
 Certification of Authenticity:
-I certify that this assignment is entirely my own work
+I certify that this assignment is entirely my own work, but had help with Professor Baier.
 """
 def main():
     interest_rate = eval(input("Enter a value for the annual interest rate:"))
