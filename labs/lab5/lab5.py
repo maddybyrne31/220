@@ -6,18 +6,6 @@ Name: <your name goes here – first and last>
 from graphics import *
 
 
-def target():
-    win_width = 500
-    win_height = 500
-    win = GraphWin("Archery Target", win_width, win_height)
-
-    # Add code here to get the dimensions and draw the target
-
-    # Wait for another click to exit
-    win.getMouse()
-    win.close()
-
-
 def triangle():
     import math
     win_width = 500
@@ -48,12 +36,12 @@ def triangle():
 
     perimeter = (L1+L2+L3)
     s = perimeter / 2
-    area = math.sqrt (s(s-L1) * (s-L2) * (s-L3))
+    area = math.sqrt (s * (s-L1) * (s-L2) * (s-L3))
 
-    ptext = Text(Point, "The area is: " + str(area))
+    ptext = Text(Point(400 / 2, 20), "The area is: " + str(area))
     ptext.draw(win)
 
-    ptext = Text(Point, "The perimeter is: "+ str(perimeter))
+    ptext = Text(Point(400 / 2, 40), "The perimeter is: "+ str(perimeter))
     ptext.draw(win)
 
     win.getMouse()
@@ -160,9 +148,10 @@ def another_series():
 
 
 def main():
-    # triangle()
-    # color_shape()
+    triangle()
+    color_shape()
+    process_string()
+    another_series()
     pass
-
 
 main()
